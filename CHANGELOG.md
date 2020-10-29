@@ -4,6 +4,24 @@
 
 [1]: https://pypi.org/project/google-cloud-bigquery/#history
 
+## [2.3.0](https://www.github.com/googleapis/python-bigquery/compare/v2.2.0...v2.3.0) (2020-10-29)
+
+
+### Features
+
+* add `reload` argument to `*Job.done()` functions ([#341](https://www.github.com/googleapis/python-bigquery/issues/341)) ([e51fd45](https://www.github.com/googleapis/python-bigquery/commit/e51fd45fdb0481ac5d59cc0edbfa0750928b2596))
+
+
+### Bug Fixes
+
+* **dbapi:** avoid running % format with no query parameters ([#348](https://www.github.com/googleapis/python-bigquery/issues/348)) ([5dd1a5e](https://www.github.com/googleapis/python-bigquery/commit/5dd1a5e77f13b8e576e917069e247c5390a81900))
+* create_job method accepts dictionary arguments ([#300](https://www.github.com/googleapis/python-bigquery/issues/300)) ([155bacc](https://www.github.com/googleapis/python-bigquery/commit/155bacc156f181384ca6dba699ab83d0398176d1))
+
+
+### Documentation
+
+* add documents for QueryPlanEntry and QueryPlanEntryStep ([#344](https://www.github.com/googleapis/python-bigquery/issues/344)) ([dca2e4c](https://www.github.com/googleapis/python-bigquery/commit/dca2e4ca7c2ae183ac4bb60f653d425a43a86bea))
+
 ## [2.2.0](https://www.github.com/googleapis/python-bigquery/compare/v2.1.0...v2.2.0) (2020-10-19)
 
 
